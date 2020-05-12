@@ -8,6 +8,7 @@
 
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
+#import "FirstViewController.h"
 
 @interface SceneDelegate ()
 
@@ -22,7 +23,7 @@
         self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *) scene];
     }
 
-    UIViewController *controller = [[UIViewController alloc] init];
+    FirstViewController *controller = [[FirstViewController alloc] init];
     controller.view.backgroundColor = [UIColor cyanColor];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
