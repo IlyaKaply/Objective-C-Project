@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import ""
+#import "SecondViewController.h"
 
 @interface FirstViewController ()
 
@@ -19,16 +19,18 @@
     
     [super viewDidLoad];
     
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 200, 100, 50)];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2-75, 150, 150, 50)];
     [button addTarget:self action:@selector(nextScreen:) forControlEvents:UIControlEventTouchUpInside];
     button.backgroundColor = [UIColor blackColor];
-    [button setTitle:@"Next_window" forState:UIControlStateNormal];
+    [button setTitle:@"Next_Controller" forState:UIControlStateNormal];
     
     [self.view addSubview:button];
+                                                
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 400, 100, 50)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2-75, 100, 200, 50)];
     label.highlighted = YES;
-    label.text = @"Label here";
+    label.numberOfLines = 1;
+    label.text = @"First View Controller";
     
     [self.view addSubview:label];
 
@@ -36,9 +38,9 @@
 
 - (void)nextScreen:(UIButton *)button {
     
-    UIViewController *controller = [[UIViewController alloc] init];
-    controller.view.backgroundColor = [UIColor blueColor];
+    SecondViewController *nextController = [[SecondViewController alloc] init];
+    nextController.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:nextController animated:YES];
     
-    [self.navigationController pushViewController:controller animated:YES];
 }
 @end
