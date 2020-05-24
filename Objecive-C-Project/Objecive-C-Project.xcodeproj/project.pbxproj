@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		092D94C2246A8A7F00F7AD05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D94C1246A8A7F00F7AD05 /* AppDelegate.m */; };
 		092D94C5246A8A7F00F7AD05 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D94C4246A8A7F00F7AD05 /* SceneDelegate.m */; };
-		092D94C8246A8A7F00F7AD05 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D94C7246A8A7F00F7AD05 /* FirstViewController.m */; };
 		092D94CE246A8A7F00F7AD05 /* Objecive_C_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 092D94CC246A8A7F00F7AD05 /* Objecive_C_Project.xcdatamodeld */; };
 		092D94D0246A8A8000F7AD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092D94CF246A8A8000F7AD05 /* Assets.xcassets */; };
 		092D94D6246A8A8000F7AD05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D94D5246A8A8000F7AD05 /* main.m */; };
-		092D94DE246ABC6300F7AD05 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D94DD246ABC6300F7AD05 /* SecondViewController.m */; };
+		0939348F2476C3A10064B45C /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0939348E2476C3A10064B45C /* MyCell.m */; };
+		0981EBAA24750FC20098C090 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981EBA924750FC20098C090 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,14 +22,14 @@
 		092D94C1246A8A7F00F7AD05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		092D94C3246A8A7F00F7AD05 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		092D94C4246A8A7F00F7AD05 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		092D94C6246A8A7F00F7AD05 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		092D94C7246A8A7F00F7AD05 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		092D94CD246A8A7F00F7AD05 /* Objecive_C_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Objecive_C_Project.xcdatamodel; sourceTree = "<group>"; };
 		092D94CF246A8A8000F7AD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		092D94D4246A8A8000F7AD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		092D94D5246A8A8000F7AD05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		092D94DC246ABC6300F7AD05 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		092D94DD246ABC6300F7AD05 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0939348D2476C3A10064B45C /* MyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		0939348E2476C3A10064B45C /* MyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		0981EBA824750FC20098C090 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0981EBA924750FC20098C090 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +66,14 @@
 				092D94C1246A8A7F00F7AD05 /* AppDelegate.m */,
 				092D94C3246A8A7F00F7AD05 /* SceneDelegate.h */,
 				092D94C4246A8A7F00F7AD05 /* SceneDelegate.m */,
-				092D94C6246A8A7F00F7AD05 /* FirstViewController.h */,
-				092D94C7246A8A7F00F7AD05 /* FirstViewController.m */,
-				092D94DC246ABC6300F7AD05 /* SecondViewController.h */,
-				092D94DD246ABC6300F7AD05 /* SecondViewController.m */,
 				092D94CF246A8A8000F7AD05 /* Assets.xcassets */,
 				092D94D4246A8A8000F7AD05 /* Info.plist */,
 				092D94D5246A8A8000F7AD05 /* main.m */,
 				092D94CC246A8A7F00F7AD05 /* Objecive_C_Project.xcdatamodeld */,
+				0981EBA824750FC20098C090 /* ViewController.h */,
+				0981EBA924750FC20098C090 /* ViewController.m */,
+				0939348D2476C3A10064B45C /* MyCell.h */,
+				0939348E2476C3A10064B45C /* MyCell.m */,
 			);
 			path = "Objecive-C-Project";
 			sourceTree = "<group>";
@@ -146,12 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092D94DE246ABC6300F7AD05 /* SecondViewController.m in Sources */,
 				092D94D6246A8A8000F7AD05 /* main.m in Sources */,
-				092D94C8246A8A7F00F7AD05 /* FirstViewController.m in Sources */,
 				092D94C2246A8A7F00F7AD05 /* AppDelegate.m in Sources */,
 				092D94CE246A8A7F00F7AD05 /* Objecive_C_Project.xcdatamodeld in Sources */,
 				092D94C5246A8A7F00F7AD05 /* SceneDelegate.m in Sources */,
+				0981EBAA24750FC20098C090 /* ViewController.m in Sources */,
+				0939348F2476C3A10064B45C /* MyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

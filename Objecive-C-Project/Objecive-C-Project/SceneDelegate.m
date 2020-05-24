@@ -8,7 +8,9 @@
 
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
-#import "FirstViewController.h"
+#import "ViewController.h"
+
+
 
 @interface SceneDelegate ()
 
@@ -18,16 +20,12 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
- 
     if (self.window == nil && [scene isKindOfClass:[UIWindowScene class]]) {
-        self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *) scene];
+        self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
     }
-
-    FirstViewController *controller = [[FirstViewController alloc] init];
-    controller.view.backgroundColor = [UIColor cyanColor];
     
+    ViewController *controller = [[ViewController alloc] init];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
-  
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
 }
